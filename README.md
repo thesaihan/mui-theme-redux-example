@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configuration
+
+Clone this repository, create a `.env` file in the root directory and add the following credentials:<br/>
+`REACT_APP_API_ENDPOINT=https://api.rawg.io/api`<br/>
+
 ## Available Scripts
 
 In the project directory, you can run:
