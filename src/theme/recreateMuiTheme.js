@@ -3,12 +3,14 @@ import { ColorValues, Modes } from "./colors";
 
 export const recreateMuiTheme = (
   mode = Modes.DARK,
-  pcolor = ColorValues.DEEPORANGE
+  pcolor = ColorValues.DEEPORANGE,
+  scolor = ColorValues.PINK
 ) => {
   return createMuiTheme({
     palette: {
       type: mode,
-      primary: colors[pcolor]
+      primary: colors[pcolor],
+      secondary: colors[scolor]
     }
   });
 };

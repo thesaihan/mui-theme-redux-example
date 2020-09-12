@@ -81,7 +81,9 @@ const App = () => {
                 <StarRounded color="primary" />
               </ListItemIcon>
               <ListItemText>
-                <Typography color="primary">Highest Rated</Typography>
+                <Typography color="primary" variant="body1">
+                  Highest Rated
+                </Typography>
               </ListItemText>
             </ListItem>
 
@@ -90,13 +92,17 @@ const App = () => {
                 <ArrowUpwardRounded color="primary" />
               </ListItemIcon>
               <ListItemText>
-                <Typography color="primary">Top 30</Typography>
+                <Typography color="primary" variant="body1">
+                  Top 30
+                </Typography>
               </ListItemText>
             </ListItem>
 
             <ListItem button>
               <ListItemText>
-                <Typography color="primary">Dark Mode</Typography>
+                <Typography color="primary" variant="body1">
+                  Dark Mode
+                </Typography>
               </ListItemText>
               <Switch
                 value={mode === Modes.DARK}
